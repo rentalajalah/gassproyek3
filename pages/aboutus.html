@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Proposal - Proyek 3</title>
+    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+    <!-- Bulma Version 0.9.x -->
+    <link rel='stylesheet prefetch' href='https://unpkg.com/bulma@0.9.4/css/bulma.min.css'>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="hero is-info">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Rental mobil Berbasis website
+                </h1>
+                <h2 class="subtitle">
+                    ilham & syatiri
+                </h2>
+            </div>
+        </div>
+        <div class="tabs is-boxed is-centered main-menu" id="nav">
+            <ul>
+                <li data-target="pane-1" id="1">
+                    <a href="../index.html">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li data-target="pane-2" id="2">
+                    <a href="../pages/proposal.html">
+                        <span>Proposal</span>
+                    </a>
+                </li>
+                <li data-target="pane-3" id="3">
+                    <a href="../pages/contact.html">
+                        <span>Contact Us</span>
+                    </a>
+                </li>
+                <li data-target="pane-4" id="4" class="is-active">
+                    <a href="../pages/aboutus.html">
+                        <span>About Us</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tab-content">
+            <div class="tab-pane is-active" id="pane-2">
+                <div class="content">
+                    <h1>About Us</h1>
+                </div>
+                <!-- foto ilham -->
+                <div style="text-align: left;" class="columns is-centered">
+                    <!-- <div class="column is-4">
+                        <figure class="image is-4by2">
+                            <img src="../assets/image/farhan.png" alt="Description">
+                        </figure>
+                    </div> -->
+                    <div class="content-aboutus">
+                        <!-- untuk menampilkan data pada main.js data ilham -->
+                        <ul>
+                            <li><strong>NPM:1194001</strong> <span id="npm-ilham"></span></li>
+                            <li><strong>Nama:Ade ilham permadi</strong> <span id="nama-ilham"></span></li>
+                            <li><strong>Email:permadiadeilham@gmail.com</strong> <span id="email-ilham"></span></li>
+
+                        </ul><br>
+                    </div>
+                </div>
+
+                <!-- foto saytiri -->
+                <div style="text-align: left;" class="columns is-centered">
+                    <!-- <div class="column is-4">
+                        <figure class="image is-4by2">
+                            <img src="../assets/image/farhan.png" alt="Description">
+                        </figure>
+                    </div> -->
+                    <!-- untuk menampilkan data pada main.js data syatiri-->
+                    <ul>
+                        <li><strong>NPM:1194049</strong> <span id="npm-syatiri"></span></li>
+                        <li><strong>Nama:M.hadi syatir</strong> <span id="nama-syatiri"></span></li>
+                        <li><strong>Email:mhadisyatiri@gmail.com</strong> <span id="email-syatiri"></span></li>
+                    </ul><br>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <script type="module" src="../js/main.js"></script>
+    <script type="module" src="../js/tabs.js"></script>
+    <script type="module" src="./js/bulma.js"></script>
+</body>
+
+</html>
